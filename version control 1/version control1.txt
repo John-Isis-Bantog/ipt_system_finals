@@ -1,0 +1,12 @@
+laravel version control version 1
+progress update:
+-navbar fully functional
+-home page in progress
+-routing fully functional 
+
+future update
+-about
+-program
+-admission 
+-log in page
+-database
