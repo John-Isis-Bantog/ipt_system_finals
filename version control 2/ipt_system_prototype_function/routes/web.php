@@ -17,3 +17,10 @@ Route::get('/program', function () {
 Route::get('/admission', function () {
     return view('admission');
 });
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
+
+
+

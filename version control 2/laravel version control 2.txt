@@ -1,0 +1,15 @@
+laravel version control 2:
+-fully functional home menu update
+-fully functional about page 
+-fully functional program page 
+-fully functional admission page
+-fully functional dashbooard page
+-fully functional footer 
+-fully functional rules and regulation  
+-fully functional mission and vision 
+
+
+
+future update
+-log in page
+-database
