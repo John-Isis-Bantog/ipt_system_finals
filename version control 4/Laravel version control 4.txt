@@ -1,0 +1,30 @@
+Laravel version control 4
+-improved design
+-login page
+-register page
+-database
+- fully functional login-register system
+-contact page
+
+
+future update
+-looping over tables to reduce code and to improve maintainability 
+- tailwind cards
+- improve design
+-improve colors
+- contact page that sends to my gmail account
+- reducing the navbar's buttons
+
+
+note
+to connect to database xamp gamitin kase mas madami yung gagawin pag may separate app ng database
+
+
+->mysql(phpmyadmin)-> create database->go to vs code terminal-> run the command "php artisan migrate".
+
+note 2
+
+note: yung email kapag nag register is dapat unique so bawal yung dalang email na magka parehas tulad ng 
+
+register hotdog@gmail.com
+register(again) hotdog@gmail. com

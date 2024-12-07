@@ -4,9 +4,9 @@
 
 <div class="w-full h-screen bg-cover bg-center flex flex-col" style="background-image: url('bg-all.jpg');">
 <div class="relative overflow-x-auto shadow-md sm:rounded-lg m-10 ">
-    <table class="w-full text-sm text-left rtl:text-right text-green-500 ">
-        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-green-900 dark:text-white">
-            <tr>
+    <table class="w-full  text-left rtl:text-right text-green-500 ">
+        <thead class=" text-gray-700 uppercase bg-gray-50 dark:bg-green-900 dark:text-white">
+            <tr class="text-lg">
                 <th scope="col" class="px-6 py-3">
                     Date
                 </th>
@@ -16,7 +16,7 @@
                 
             </tr>
         </thead>
-        <tbody class="md:container md:mx-auto">
+        <tbody class="md:container md:mx-auto ">
         <tr class="bg-white border-b bg-gray-50 dark:bg-green-700 dark:text-white hover:bg-green-800 dark:hover:bg-green-800 ">
             <td scope="row" class="px-6 py-4 ">
                 September 6-8

@@ -1,8 +1,9 @@
 <x-layout>
 <div class="w-full h-screen bg-cover bg-center flex flex-col" style="background-image: url('bg-all.jpg');">
 <ul class="space-y-2 text-gray-500 list-disc list-inside dark:text-white bg-green-700 m-10  p-5 rounded-lg ">
-    <li>
-        College Freshmen
+    <li >
+        <span class="text-lg"> College Freshmen</span>
+       
         <ol class="ps-5 mt-2 space-y-1 list-decimal list-inside">
             <li> Form 138 (report card)</li>
             <li>      3 copies 1 x 1 colored picture_</li>
@@ -11,7 +12,8 @@
         </ol>
     </li>
     <li>
-    Old Students
+        <span class="text-lg">Old Students</span>
+    
         <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
             <li>  ID card of the previous semester</li>
             <li>Class cards of subject taken from the previous semester</li>
@@ -21,7 +23,8 @@
         </ul>
     </li>
     <li>
-        Transferees
+    <span class="text-lg">Transferees</span>
+        
         <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
             <li>Honorable Dismissal (Official Transfer Credential)</li>
             <li> Certified copy of grades/ credits earned from other school</li>
@@ -32,7 +35,8 @@
     </li>
 
     <li>
-        Returning/ Shifting Students
+    <span class="text-lg">Returning/ Shifting Students</span>
+        
         <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
         
             <li>ID card of the last semester enrolled for returning students</li>
@@ -43,7 +47,8 @@
     </li>
 
     <li>
-        Policy Of READMISSION
+    <span class="text-lg">Policy Of READMISSION</span>
+        
         <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
         
             <p>A student who withdraws from the College may seek readmission by filing a written request for readmission addressed tothe academic council.</p>

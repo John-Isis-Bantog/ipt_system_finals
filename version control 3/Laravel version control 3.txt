@@ -1,8 +1,0 @@
-Laravel version control 3
--improved design
--more pictures
--improved background
--log in page 
-
-future version
--database

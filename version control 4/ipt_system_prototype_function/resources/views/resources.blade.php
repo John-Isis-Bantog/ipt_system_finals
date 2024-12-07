@@ -14,7 +14,7 @@
     <table class="w-full text-sm text-left rtl:text-right text-green-500  ">
         <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-green-900 dark:text-white">
             <tr>
-                <th scope="col" class="px-6 py-3 text-center" colspan="2">
+                <th scope="col" class="px-6 py-3 text-center text-lg" colspan="2">
                 OPEN EDUCATIONAL RESOURCES (OER)
                 </th>
                 

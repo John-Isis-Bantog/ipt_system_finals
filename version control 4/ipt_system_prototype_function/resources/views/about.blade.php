@@ -1,6 +1,6 @@
 <x-layout>
 
-<div class="w-full h-screen bg-cover bg-center flex flex-col" style="background-image: url('bg-all.jpg');">
+<div class="w-full  bg-cover bg-center flex flex-col" style="background-image: url('bg-all.jpg');">
 <ul class="space-y-4 text-gray-500 list-disc list-inside dark:text-white bg-green-700 mx-10 p-5 m-10 rounded-lg">
     <div class="flex justify-between">
         <div class="flex">
@@ -38,9 +38,10 @@
     
 
     
-<div class="" id="history">
-    <h1 class="text-center">History of eastwoods  Professional College(Foremely Softnet College)</h1>
-    <p>softnet college of science and technology, inc. was conceptualized in december of 1993 by the president Mr. Gregorio M. Sison Jr.
+<div class="container mx-auto" id="history">
+    <h1 class="text-center text-xl">History of eastwoods  Professional College(Foremely Softnet College)</h1>
+    <img class="m-5 rounded-lg w-6/12 mx-auto" src="{{ asset('about_history.jpg') }}" alt="Your Photo">
+    <p class="text-large">Softnet college of science and technology, inc. was conceptualized in december of 1993 by the president Mr. Gregorio M. Sison Jr.
          and started operations in 1994. The college was then known as SOFTNET Computer Learning Specialists, inc. and was renting 2 
          rooms at Santiago Bldg. in Capitol Drive, Balanga. We then offered one-year courses in computer science in programming and in 
          computer secretarial. A total of 79 enrollees were out clients during first year of operation. in 1995, the enrollment build up 
@@ -51,93 +52,103 @@
     </p>
 </div>
 
-<div class="" id="philosophy">
-    <h1 class="text-center">philosophy </h1>
-    <p>The paramount role of EASTWOODS PROFESSIONAL COLLEGE OF SCIENCE AND TECHNOLOGY is to empower our studentry, through education 
+<div class="container mx-auto" id="philosophy">
+<img class="m-5 rounded-lg w-6/12 mx-auto" src="{{ asset('about_phy.jpg') }}" alt="Your Photo">
+    <h1 class="text-center text-xl">Philosophy </h1>
+    <p class="text-lg">The paramount role of EASTWOODS PROFESSIONAL COLLEGE OF SCIENCE AND TECHNOLOGY is to empower our studentry, through education 
         and training with a solid foundation of knowledge, skills, and moral values necessary in the attainment of their potential enabling
          them to be competitive, proactive and productive citizen of our country </p>
 </div>
 
-<div class="" id="values">
-<h1 class="">Values</h1>
-    <li>
-    Respect
-        <ol class="ps-5 mt-2 space-y-1 list-decimal list-inside">
+<div class="container mx-auto" id="values">
+<img class="m-5 rounded-lg w-6/12 mx-auto" src="{{ asset('about_value.jpg') }}" alt="Your Photo">
+<h1 class="text-center text-xl">Values</h1>
+    <div class="text-lg">
+        <li>
+        Respect
+            <ol class="ps-5 mt-2 space-y-1 list-decimal list-inside">
+                
+                We treat everyone with dignity and consideration, fostering a culture of mutual respect and understanding.</li>
+            </ol>
+        </li>
+        <li>
+        Integrity
+            <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
+                
+                We act with honesty and uphold strong moral principles, ensuring trust and accountability in all our actions.
+            </ul>
+        </li>
+        <li>
+        Excellence
+            <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
             
-             We treat everyone with dignity and consideration, fostering a culture of mutual respect and understanding.</li>
-        </ol>
-    </li>
-    <li>
-    Integrity
-        <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
-            
-               We act with honesty and uphold strong moral principles, ensuring trust and accountability in all our actions.
-        </ul>
-    </li>
-    <li>
-    Excellence
-        <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
-           
-               We strive for the highest standards in all our endeavors, encouraging a commitment to continuous improvement and lifelong learning</li>
-        </ul>
-    </li>
+                We strive for the highest standards in all our endeavors, encouraging a commitment to continuous improvement and lifelong learning</li>
+            </ul>
+        </li>
 
-    <li>
-    Inclusivity
-        <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
-        
+        <li>
+        Inclusivity
+            <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
             
-            We embrace diversity and promote an environment where all individuals feel valued and included, regardless of their background or abilities.</li> 
-        </ul>
-    </li>
+                
+                We embrace diversity and promote an environment where all individuals feel valued and included, regardless of their background or abilities.</li> 
+            </ul>
+        </li>
 
-    <li>
-    Innovation
-        <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
-        
+        <li>
+        Innovation
+            <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
             
-            We encourage creativity and critical thinking, preparing students to be adaptable and forward-thinking leaders</li>
- 
-        </ul>
-    </li>
+                
+                We encourage creativity and critical thinking, preparing students to be adaptable and forward-thinking leaders</li>
+    
+            </ul>
+        </li>
 
-    <li>
-    Compassion
-        <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
-        
+        <li>
+        Compassion
+            <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
             
-            We cultivate empathy and kindness, teaching students to care for others and contribute positively to their communities.</li>
- 
-        </ul>
-    </li>
+                
+                We cultivate empathy and kindness, teaching students to care for others and contribute positively to their communities.</li>
+    
+            </ul>
+        </li>
 
-    <li>
-    Collaboration
-        <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
-        
+        <li>
+        Collaboration
+            <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
             
-           We work together as a community, valuing teamwork and the sharing of ideas to achieve common goals</li>
- 
-        </ul>
-    </li>
+                
+            We work together as a community, valuing teamwork and the sharing of ideas to achieve common goals</li>
+    
+            </ul>
+        </li>
 
-    <li>
-    Responsibility
-        <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
-        
+        <li>
+        Responsibility
+            <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
             
-            We take ownership of our actions and their impact, promoting a sense of accountability and stewardship</li>
- 
-        </ul>
-    </li>
-<div class="flex flex-col items-center  ">
+                
+                We take ownership of our actions and their impact, promoting a sense of accountability and stewardship</li>
+    
+            </ul>
+        </li>
+    </div>
+<div class="flex flex-col items-center m-5 ">
     <a href = "/login" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm p-7 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 w-auto">Enroll Now</a>
 </div>
     
     <!-- <h1>lorem100</h1> -->
+
+
+    
 </ul>
 
 </div>
+
+
+
 
 </x-layout>
 
