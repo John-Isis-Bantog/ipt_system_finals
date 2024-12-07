@@ -1,0 +1,47 @@
+.perspective {
+  -webkit-perspective: 1800px;
+          perspective: 1800px;
+}
+
+.page {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform:rotateY(0deg);
+          transform:rotateY(0deg);
+}
+
+.page.turn{
+    -webkit-transform:rotateY(-180deg);
+            transform:rotateY(-180deg);
+}
+
+.front, .back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.back {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  height: 100vh;
+  
+  font-family: 'Oswald', sans-serif;
+}
+h2{font-size:2rem}
+
+/* Vanilla CSS for flip card */
+.card { perspective: 800px;}
+.card__content {transform-style: preserve-3d;}
+.card:hover .card__content {transform: rotateY(.5turn);}
+
+.card__front,
+.card__back { backface-visibility: hidden;}
+.card__back{ transform: rotateY(.5turn);}

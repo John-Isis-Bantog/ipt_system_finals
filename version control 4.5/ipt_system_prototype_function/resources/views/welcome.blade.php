@@ -1,7 +1,11 @@
 <x-layout>
+  
+  <div class="w-full h-screen bg-cover bg-center flex flex-col items-center justify-end  " style="background-image: url('home.jpg');">
     
-    
-    <div class=""style="background-image: url('bg-all.jpg');">
+  <a href = "/login" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm p-7 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 w-auto"><span class="text-lg">Enroll Now</span></a>
+  </div>
+
+  <div class=""style="background-image: url('bg-all.jpg');">
     <div class="grid grid-cols-2  gap-4">
         <div>
             <img class="m-5 rounded-lg" src="{{ asset('pic-resources.jpg') }}" alt="Your Photo">
@@ -21,7 +25,7 @@
                 
             </tr>
         </thead>
-        <tbody class="md:container md:mx-auto">
+        <tbody class="md:container md:mx-auto text-lg">
         <tr class="bg-white border-b bg-gray-50 dark:bg-green-700 dark:text-white hover:bg-green-800 dark:hover:bg-green-800 ">
             <td scope="row" class="px-6 py-4 ">
             American Institute of Mathematics Open Textbook Initiative
@@ -261,9 +265,3 @@
     </div>
     
 </x-layout>
-
-    
-</body>
-</html>
-
-

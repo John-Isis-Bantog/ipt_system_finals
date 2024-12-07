@@ -1,4 +1,32 @@
 <x-layout>
+    
+    <div class="w-full h-screen bg-cover bg-center flex flex-row" style="background-image: url('bg_contact.jpg');">
+    <div class="m-auto  h-auto bg-green-800 p-16 text-white flex">
+        <div class="flex text-xl">
+            <ul class="flex flex-col">
+                <li>Address: MGHP+QPQ, City of Balanga, Bataan</li>
+                <li>Contact Number: (047) 791 2791</li>
+                <li>You May Contact us on: eastwoodsprofessional@yahoo.com</li>
+                <span>Operation Hours: <br>
+                    <li>Monday to Friday 8:00 am to 8:00 pm</li>
+                    <li>Saturday: 8:00 am to 3:00 pm</li>
+                    <li>Sunday: CLOSED</li>
+                </span>
+            </ul>
+        </div>
+        
+        <div class="map  w-6/12 flex">
+            <!-- Map -->
+            <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1147.4598205596685!2d120.53647958338185!3d14.67980376558722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339641c0395eb9e9%3A0x7d3d02d68a830230!2sEASTWOODS%20Professional%20College%20of%20Science%20and%20Technology!5e0!3m2!1sen!2sph!4v1698200642533!5m2!1sen!2sph" style="border: 2px solid;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+   
+</div>
+
+   
+
+
 <section class="bg-white dark:bg-gray-900 h-screen">
   <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
       <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us</h2>

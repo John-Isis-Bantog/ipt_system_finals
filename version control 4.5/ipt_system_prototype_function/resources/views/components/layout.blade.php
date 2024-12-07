@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EPCST</title>
     <link rel="icon" type="image/x-icon" href="{{ asset('pic-resources.jpg') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
 </head>
@@ -28,7 +29,7 @@
         <a href="/program" class="{{ request()->is('program') ? 'bg-green-600 ' : ' hover:bg-green-600 hover:text-white '}} rounded-md px-3 py-2 text-sm font-medium text-white"><span class="text-xl">Program</span></a>
         <a href="/admission" class="{{ request()->is('admission') ? 'bg-green-600 ' : ' hover:bg-green-600 hover:text-white '}} rounded-md px-3 py-2 text-sm font-medium text-white"><span class="text-xl">Admission</span></a>
         <a href="/dashboard" class="{{ request()->is('dashboard') ? 'bg-green-600 ' : ' hover:bg-green-600 hover:text-white '}} rounded-md px-3 py-2 text-sm font-medium text-white"><span class="text-xl">Dashboard</span></a>
-        <a href="/resources" class="{{ request()->is('resources') ? 'bg-green-600 ' : ' hover:bg-green-600 hover:text-white '}} rounded-md px-3 py-2 text-sm font-medium text-white"><span class="text-xl">Resources</span></a>
+        
         <a href="/contact" class="{{ request()->is('contact') ? 'bg-green-600 ' : ' hover:bg-green-600 hover:text-white '}} rounded-md px-3 py-2 text-sm font-medium text-white"><span class="text-xl">Contact Us</span></a>
         @auth
          
@@ -40,7 +41,7 @@
           
         
           
-            <a href="{{route('registration')}} "class="{{ request()->is('registratiobn') ? 'bg-green-600 ' : ' hover:bg-green-600 hover:text-white '}} rounded-md px-3 py-2 text-sm font-medium text-white"><span class="text-xl ">Registration</a>
+            <a  href="{{route('registration')}}" class="{{ request()->is('registration') ? 'bg-green-600 ' : ' hover:bg-green-600 hover:text-white '}} rounded-md px-3 py-2 font-medium text-white"><span class="text-xl">Register</a>
           
         @endauth
         @auth
@@ -72,8 +73,8 @@
     
    </main>
  </div>
+ <script src="{{ asset('script/script.js') }}"></script>
  
-
  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
  <x-footer />
  </body>

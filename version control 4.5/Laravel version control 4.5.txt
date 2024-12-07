@@ -1,10 +1,17 @@
-Laravel version control 4
+Laravel version control 4.5
 -improved design
--login page
--register page
--database
-- fully functional login-register system
--contact page
+-removing items from navbar
+- resources moved to home page
+- book-flip about page
+- recolor
+-improved design admission page
+-clickable table
+-improved contact us page
+
+ongoing
+-refactoring program page
+-recoloring program page
+-improving design of program page
 
 
 future update
@@ -28,3 +35,4 @@ note: yung email kapag nag register is dapat unique so bawal yung dalang email n
 
 register hotdog@gmail.com
 register(again) hotdog@gmail. com
+

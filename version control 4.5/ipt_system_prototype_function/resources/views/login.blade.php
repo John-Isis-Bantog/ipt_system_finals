@@ -31,19 +31,19 @@
     <img class="w-36" src="{{ asset('logo.png') }}" alt="Your Photo">
   </div>
   <div class="text-white pt-10 text-center"> 
-    <h1 class="text-xl">
+    <h1 class="text-2xl">
     Eastwoods Professional College of Science & Technology
     </h1>
    
-  </div>{{route('login.post')}}
+  </div>
 </div>
 
   <!-- Other contents -->
   <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
     <form class="space-y-4 md:space-y-6" action="{{route('login.post')}} " method="post">
     @csrf
-    <h1 class="text-xl font-bold leading-tight tracking-tight text-white md:text-2xl ">
-      Create an Account
+    <h1 class="text-xl text-center font-bold leading-tight tracking-tight text-white md:text-2xl ">
+      Log In
     </h1>
       <div>
         <label for="email" class="block mb-2 text-sm font-medium  ">Your email</label>
