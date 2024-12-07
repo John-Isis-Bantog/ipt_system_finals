@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>EPCST</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
 </head>
@@ -16,7 +16,7 @@
         <div class="flex items-center">
           <div class="flex-shrink-0">
             
-            <img class="h-8 w-8 mr-3" src="{{ asset('logo.jpg') }}" alt="Your Photo">
+            <img class="h-8 w-8 mr-3" src="{{ asset('logo.png') }}" alt="Your Photo">
           </div>
           <div class="hidden md:block">
             <div>
@@ -40,6 +40,12 @@
                     px-3 py-2 text-sm font-medium text-white">Admission</a>
                 <a href = "/dashboard" class="{{ request()->is('dashboard') ? 'bg-green-500 ' : ' hover:bg-green-600 hover:text-white '}}rounded-md  
                     px-3 py-2 text-sm font-medium text-white">Dashboard</a>
+                    
+                <a href = "/resources" class="{{ request()->is('resources') ? 'bg-green-500 ' : ' hover:bg-green-600 hover:text-white '}}rounded-md  
+                    px-3 py-2 text-sm font-medium text-white">Resources</a>
+                <a href = "/login" class="{{ request()->is('login') ? 'bg-green-500 ' : ' hover:bg-green-600 hover:text-white '}}rounded-md  
+                
+                    px-3 py-2 text-sm font-medium text-white">Login</a>
                 
         </div>
        

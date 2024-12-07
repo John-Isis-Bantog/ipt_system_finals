@@ -1,8 +1,8 @@
 <x-layout>
-<h1 class="text-center">Dashboard</h1>
 
 
 
+<div class="w-full h-screen bg-cover bg-center flex flex-col" style="background-image: url('bg-all.jpg');">
 <div class="relative overflow-x-auto shadow-md sm:rounded-lg m-10 ">
     <table class="w-full text-sm text-left rtl:text-right text-green-500 ">
         <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-green-900 dark:text-white">
@@ -70,9 +70,12 @@
             
         </tbody>
     </table>
+    
 </div>
-
-
+    <div class="flex flex-col items-center justify-end">
+        <a href = "/login" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm p-7 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 w-auto">Enroll Now</a>
+    </div>
+</div>
 
 </x-layout>
 

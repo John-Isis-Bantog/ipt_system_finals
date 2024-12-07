@@ -1,6 +1,6 @@
 <x-layout>
-<h1 class="text-center">Admission</h1>
-<ul class="space-y-4 text-gray-500 list-disc list-inside dark:text-white bg-green-700 m-10 p-5">
+<div class="w-full h-screen bg-cover bg-center flex flex-col" style="background-image: url('bg-all.jpg');">
+<ul class="space-y-2 text-gray-500 list-disc list-inside dark:text-white bg-green-700 m-10  p-5 rounded-lg ">
     <li>
         College Freshmen
         <ol class="ps-5 mt-2 space-y-1 list-decimal list-inside">
@@ -55,10 +55,11 @@
         </ul>
     </li>
 
-    <button class="block text-white m-1 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800" type="button">
-    Enroll Now
-    </button>
+    <div class="flex flex-col items-center justify-end">
+    <a href = "/login" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm p-7 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 w-auto">Enroll Now</a>
+</div>
 </ul>
+</div>
 </x-layout>
 
 

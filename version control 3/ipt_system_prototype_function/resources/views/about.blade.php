@@ -1,5 +1,7 @@
 <x-layout>
-<ul class="space-y-4 text-gray-500 list-disc list-inside dark:text-white bg-green-700 m-10 p-5">
+
+<div class="w-full h-screen bg-cover bg-center flex flex-col" style="background-image: url('bg-all.jpg');">
+<ul class="space-y-4 text-gray-500 list-disc list-inside dark:text-white bg-green-700 mx-10 p-5 m-10 rounded-lg">
     <div class="flex justify-between">
         <div class="flex">
             <button data-modal-target="rules" data-modal-toggle="rules" class="block text-white m-1 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800" type="button">
@@ -128,12 +130,15 @@
  
         </ul>
     </li>
-
-    <button class="block text-white m-1 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800" type="button">
-    Enroll Now
-    </button>
-</ul>
+<div class="flex flex-col items-center  ">
+    <a href = "/login" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm p-7 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 w-auto">Enroll Now</a>
 </div>
+    
+    <!-- <h1>lorem100</h1> -->
+</ul>
+
+</div>
+
 </x-layout>
 
     
@@ -143,10 +148,10 @@
 
 
 <!-- rules modal -->
-<div id="rules" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
-    <div class="relative p-4 w-full max-w-2xl max-h-full">
+<div id="rules" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full ">
+    <div class="relative p-4 w-full max-w-2xl max-h-full ">
         <!-- Modal content -->
-        <div class="relative bg-white rounded-lg shadow dark:bg-green-700">
+        <div class="relative bg-white rounded-lg shadow dark:bg-green-700 ">
             <!-- Modal header -->
             <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-green-600">
                 <h3 class="text-xl font-semibold text-green-900 dark:text-green">
@@ -161,22 +166,52 @@
             </div>
             <!-- Modal body -->
             <div class="p-4 md:p-5 space-y-4">
-                <h1 class="text-white text-center">Rules</h1>
-                <p class="text-base leading-relaxed text-white dark:text-white">
-                    With less than a month to go before the European Union enacts new consumer privacy laws for its citizens, companies around the world are updating their terms of service agreements to comply.
-                </p>
-                <h1 class="text-center text-white">Regulation</h1>
-                <p class="text-base leading-relaxed text-white dark:text-white">
-                    The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25 and is meant to ensure a common set of data rights in the European Union. It requires organizations to notify users as soon as possible of high-risk data breaches that could personally affect them.
-                </p>
+                <h1 class="text-white text-center">Rules And Regulation</h1>
+                <div class="text-base leading-relaxed text-white dark:text-white">
+                  
+                    <h1>Attendance and Punctuality</h1>
+                    <li>
+                        Students must attend school regularly and be on time for all classes.
+                    </li>
+                    <li>
+                        Absences must be justified with a valid reason and a note from a parent or guardian.
+                    </li>
+
+                    <h1>Dress Code</h1>
+                    <li>Students must wear the prescribed school uniform.</li>
+                    <li>Clothing should be neat, clean, and appropriate for the school environment.</li>
+
+                    <h1>Behavior:</h1>
+                    <li>Respect all staff, students, and school property.</li>
+                    <li>Bullying, harassment, and discrimination are strictly prohibited.</li>
+                    <li>Maintain a positive and cooperative attitude.</li>
+                  
+                    <h1>Classroom Conduct:</h1>
+                    <li>Follow the teacher’s instructions and participate actively in class.</li>
+                    <li>Keep the classroom clean and tidy.</li>
+                    <li>Use electronic devices only with the teacher’s permission.</li>
+
+                    <h1>Use of Facilities</h1>
+                    <li>Respect and take care of school facilities and equipment.</li>
+                    <li>Use designated areas for eating and dispose of trash properly.</li>
+
+                    <h1>Communication</h1>
+                    <li>Communicate respectfully with peers and staff.</li>
+                    <li>Use appropriate language at all times.</li>
+
+                    <h1>Consequences</h1>
+                    <li>Understand that breaking rules may result in consequences such as detention, suspension, or other disciplinary actions</li>
+                </div>
+                
             </div>
             <!-- Modal footer -->
             <div class="flex items-center p-4 md:p-5 border-t border-green-200 rounded-b dark:border-green-600">
-                <button data-modal-hide="rules" type="button" class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-green-600 dark:hover:green-blue-700 dark:focus:ring-green-800">Closez</button>
+                <button data-modal-hide="rules" type="button" class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-green-600 dark:hover:green-blue-700 dark:focus:ring-green-800">Close</button>
                
             </div>
         </div>
     </div>
+
 </div>
 
 <!-- mission modal -->
@@ -218,4 +253,5 @@
             </div>
         </div>
     </div>
+</div>
 </div>
