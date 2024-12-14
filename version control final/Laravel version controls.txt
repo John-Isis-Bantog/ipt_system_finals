@@ -1,0 +1,81 @@
+ laravel version control version 1
+progress update:
+-navbar fully functional
+-home page in progress
+-routing fully functional 
+
+future update
+-about
+-program
+-admission 
+-log in page
+-database
+
+
+
+laravel version control 2:
+-fully functional home menu update
+-fully functional about page 
+-fully functional program page 
+-fully functional admission page
+-fully functional dashbooard page
+-fully functional footer 
+-fully functional rules and regulation  
+-fully functional mission and vision 
+
+
+
+future update
+-log in page
+-database
+Laravel version control 3
+-improved design
+-more pictures
+-improved background
+-log in page 
+
+future version
+-database
+
+
+Laravel version control 4
+-improved design
+-login page
+-register page
+-database
+- fully functional login-register system
+-contact page
+
+
+future update
+-looping over tables to reduce code and to improve maintainability 
+- tailwind cards
+- improve design
+-improve colors
+- contact page that sends to my gmail account
+- reducing the navbar's buttons
+
+Laravel version control 5
+-responsive website
+
+
+
+future update
+-looping over tables to reduce code and to improve maintainability 
+- tailwind cards
+- improve design
+-improve colors
+
+
+
+
+
+
+note
+to connect to database xamp gamitin kase mas madami yung gagawin pag may separate app ng database
+
+
+->mysql(phpmyadmin)-> create database->go to vs code terminal-> run the command "php artisan migrate".
+
+
+
