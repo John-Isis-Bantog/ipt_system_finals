@@ -14,3 +14,10 @@ function togglePageFlip(el){
  function setClickedPageForward(el){
      el.classList.add('z-50');
  }
+
+
+
+//  contact us 
+
+
+

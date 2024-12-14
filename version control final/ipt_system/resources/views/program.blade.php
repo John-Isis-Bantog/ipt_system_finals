@@ -1,164 +1,159 @@
 <x-layout>
 
 
-<div class="scroll-bar"> 
+<div class="scroll-bar text-justify"> 
   <!-- ched courses -->
-    <div class="w-screen h-screen bg-cover bg-center flex flex-col items-center justify-center bg-slate-200" >
+    <div class="w-full min-h-screen bg-cover bg-center flex flex-col items-center justify-center bg-slate-200" >
         <h1 class="text-center text-xl ">DEGREE/CHED COURSES</h1>
-        <div class="flex m-5 overflow-x-scroll space-x-4">
+        <div class="flex m-5 overflow-x-auto mx-4 space-x-4 md:mx-12 lg:mx-24 xl:mx-48">
         
+        <div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl mx-auto sm:max-w-sm sm:rounded-lg sm:px-10 md:mx-48 md:flex md:justify-center">
+            <span class="absolute top-20 z-0 h-1 w-1 bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
+            <div class="relative z-10 mx-auto max-w-md">
+                <img class="m-5 rounded-lg mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
+                <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+                    <a href="#">
+                        <h1 class="text-xl">BS in Information Technology</h1>
+                    </a>
+                    <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+                        <span>The BSIT program is a four-year degree that focuses on computer utilization and software for planning, installing, customizing, operating, managing, administering, and maintaining information technology infrastructure.</span>
+                    </div>
+                </div>
+                <div class="pt-5 text-base font-semibold leading-7">
+                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+<div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+    <span class="absolute top-20 z-0 h-1 w-1 bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
+    <div class="relative z-10 mx-auto max-w-md">
+        <img class="m-5 rounded-lg mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
+        <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+            <a href="#">
+                <h1 class="text-xl">BS in Computer Science</h1>
+            </a>
+            <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+                <span>The Bachelor of Science in Computer Science (BSCS) is a four-year degree program that focuses on understanding concepts, theories, algorithmic foundations, and implementing information and computing solutions.</span>
+            </div>
+        </div>
+        <div class="pt-5 text-base font-semibold leading-7">
+            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                Read more
+                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</div>
+
+
         <div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[205] mt-10"></span>
-            <div class="relative z-10 mx-auto max-w-md">
-            <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
-                <div
-                    class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
-                    <a href="#">
-                    <h1 class="text-xl">BS in Information Technology</h1>
+    <span class="absolute top-20 z-0 h-1 w-1 bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
+    <div class="relative z-10 mx-auto max-w-md">
+        <img class="m-5 rounded-lg mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
+        <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+            <a href="#">
+                <h1 class="text-xl">BS in Computer Engineering</h1>
             </a>
-                    <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
-                    
-                    <span>The BSIT program is a four-year degree that focuses on computer utilization and software for planning, installing, customizing, operating, managing, administering, and maintaining information technology infrastructure.</span>
-                    </div>
-                </div>
-                <div class="pt-5 text-base font-semibold leading-7">
-                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+                <span>Computer Engineering is a four-year program focusing on computer systems, analyzing software and hardware, designing electronic equipment, and constructing peripherals.</span>
+            </div>
+        </div>
+        <div class="pt-5 text-base font-semibold leading-7">
+            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                 Read more
                 <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                 </svg>
             </a>
-                </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+    <span class="absolute top-20 z-0 h-1 w-1 bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
+    <div class="relative z-10 mx-auto max-w-md">
+        <img class="m-5 rounded-lg mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
+        <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+            <a href="#">
+                <h1 class="text-xl">BS in Nursing</h1>
+            </a>
+            <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+                <span>The Bachelor of Science in Nursing (BSN) is a four-year program that includes general education, major, and professional nursing courses, with clinical classes focusing on nursing principles.</span>
             </div>
         </div>
-
-
-        <div class=" flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[205] mt-10"></span>
-            <div class="relative z-10 mx-auto max-w-md">
-            <!-- <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo"> -->
-                <div
-                    class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
-                    <a href="#">
-                    <h1 class="text-xl">BS in Computer Science</h1>
-            </a>
-                    <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
-                    
-                    <span>The Bachelor of Science in Computer Science (BSCS) is a four-year degree program that focuses on understanding concepts, theories, algorithmic foundations, and implementing information and computing solutions.</span>
-                    </div>
-                </div>
-                <div class="pt-5 text-base font-semibold leading-7">
-                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+        <div class="pt-5 text-base font-semibold leading-7">
+            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                 Read more
                 <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                 </svg>
             </a>
-                </div>
-            </div>
         </div>
+    </div>
+</div>
 
-        <div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[205] mt-10"></span>
-            <div class="relative z-10 mx-auto max-w-md">
-            <!-- <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo"> -->
-                <div
-                    class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
-                    <a href="#">
-                    <h1 class="text-xl">BS in Computer Engineering </h1>
-            </a>
-                    <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
-                    
-                    <span>Computer Engineering is a four-year program focusing on computer systems, analyzing software and hardware, designing electronic equipment, and constructing peripherals.</span>
-                    </div>
-                </div>
-                <div class="pt-5 text-base font-semibold leading-7">
-                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                Read more
-                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                </svg>
-            </a>
-                </div>
-            </div>
-        </div>
-
-        <div class=" flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[205] mt-10"></span>
-            <div class="relative z-10 mx-auto max-w-md">
-            <!-- <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo"> -->
-                <div
-                    class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
-                    <a href="#">
-                    <h1 class="text-xl">BS in Nursing</h1>
-            </a>
-                    <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
-                    
-                    <span>The Bachelor of Science in Nursing (BSN) is a four-year program that includes general education, major, and professional nursing courses, with clinical classes focusing on nursing principles.</span>
-                    </div>
-                </div>
-                <div class="pt-5 text-base font-semibold leading-7">
-                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                Read more
-                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                </svg>
-            </a>
-                </div>
-            </div>
-        </div>
 
         
 
-        <div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[205] mt-10"></span>
-            <div class="relative z-10 mx-auto max-w-md">
-            <!-- <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo"> -->
-                <div
-                    class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
-                    <a href="#">
-                    <h1 class="text-xl">BS in Hotel and Restaurant Management</h1>
+<div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+    <span class="absolute top-20 z-0 h-1 w-1 bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
+    <div class="relative z-10 mx-auto max-w-md">
+        <img class="m-5 rounded-lg mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
+        <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+            <a href="#">
+                <h1 class="text-xl">BS in Hotel and Restaurant Management</h1>
             </a>
-                    <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
-                    
-                    <span>The Bachelor of Science in Hospitality Management is a four-year program that focuses on planning, development, and human resource management in hotel, restaurant, and resort operations.</span>
-                    </div>
-                </div>
-                <div class="pt-5 text-base font-semibold leading-7">
-                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+                <span>The Bachelor of Science in Hospitality Management is a four-year program that focuses on planning, development, and human resource management in hotel, restaurant, and resort operations.</span>
+            </div>
+        </div>
+        <div class="pt-5 text-base font-semibold leading-7">
+            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                 Read more
                 <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                 </svg>
             </a>
-                </div>
-            </div>
         </div>
+    </div>
+</div>
 
-        <div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[205] mt-10"></span>
-            <div class="relative z-10 mx-auto max-w-md">
-            <!-- <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo"> -->
-                <div
-                    class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
-                    <a href="#">
-                    <h1 class="text-xl">bs in chemistry</h1>
+
+<div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+    <span class="absolute top-20 z-0 h-1 w-1 bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
+    <div class="relative z-10 mx-auto max-w-md">
+        <img class="m-5 rounded-lg mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
+        <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+            <a href="#">
+                <h1 class="text-xl">BS in Chemistry</h1>
             </a>
-                    <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
-                    
-                    <span>The Bachelor of Science in Chemistry program offers students a strong foundation in chemistry, equipping them with laboratory skills and scientific training for competent practice.</span>
-                    </div>
-                </div>
-                <div class="pt-5 text-base font-semibold leading-7">
-                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+                <span>The Bachelor of Science in Chemistry program offers students a strong foundation in chemistry, equipping them with laboratory skills and scientific training for competent practice.</span>
+            </div>
+        </div>
+        <div class="pt-5 text-base font-semibold leading-7">
+            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                 Read more
                 <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                 </svg>
             </a>
-                </div>
-            </div>
         </div>
+    </div>
+</div>
+
     </div>
     </div>
 
@@ -167,12 +162,12 @@
 
     <div class="w-screen h-screen bg-cover bg-center flex flex-col items-center justify-center bg-slate-200" >
         <h1 class="text-center text-xl ">DIPLOMA/TESDA COURSES:</h1>
-        <div class="flex m-5 overflow-x-scroll space-x-4">
+        <div class="flex m-5 overflow-x-scroll mx-48 space-x-4">
         
         <div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[205] mt-10"></span>
+            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
             <div class="relative z-10 mx-auto max-w-md">
-            <!-- <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo"> -->
+            <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
                 <div
                     class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                     <a href="#">
@@ -196,9 +191,9 @@
 
 
         <div class=" flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[205] mt-10"></span>
+            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
             <div class="relative z-10 mx-auto max-w-md">
-            <!-- <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo"> -->
+            <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
                 <div
                     class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                     <a href="#">
@@ -221,9 +216,9 @@
         </div>
 
         <div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[205] mt-10"></span>
+            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
             <div class="relative z-10 mx-auto max-w-md">
-            <!-- <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo"> -->
+            <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
                 <div
                     class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                     <a href="#">
@@ -246,9 +241,9 @@
         </div>
 
         <div class=" flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[205] mt-10"></span>
+            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
             <div class="relative z-10 mx-auto max-w-md">
-            <!-- <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo"> -->
+            <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
                 <div
                     class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                     <a href="#">
@@ -271,9 +266,9 @@
         </div>
 
         <div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[205] mt-10"></span>
+            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
             <div class="relative z-10 mx-auto max-w-md">
-            <!-- <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo"> -->
+            <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
                 <div
                     class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                     <a href="#">
@@ -296,9 +291,9 @@
         </div>
 
         <div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[205] mt-10"></span>
+            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
             <div class="relative z-10 mx-auto max-w-md">
-            <!-- <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo"> -->
+            <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
                 <div
                     class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                     <a href="#">
@@ -321,6 +316,7 @@
                 </div>
             </div>
         </div>
+        <!-- end -->
 
         
     </div>
@@ -329,12 +325,12 @@
     <!-- tutorial services -->
     <div class="w-screen h-screen bg-cover bg-center flex flex-col items-center justify-center bg-slate-200" >
         <h1 class="text-center text-xl ">Tutorial Services:</h1>
-        <div class="flex m-5 overflow-x-scroll space-x-4">
+        <div class="flex m-5 overflow-x-scroll mx-48 space-x-4">
         
         <div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[205] mt-10"></span>
+            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
             <div class="relative z-10 mx-auto max-w-md">
-            <!-- <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo"> -->
+            <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
                 <div
                     class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                     <a href="#">
@@ -358,9 +354,9 @@
 
 
         <div class=" flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[205] mt-10"></span>
+            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
             <div class="relative z-10 mx-auto max-w-md">
-            <!-- <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo"> -->
+            <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
                 <div
                     class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                     <a href="#">
@@ -383,9 +379,9 @@
         </div>
 
         <div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[205] mt-10"></span>
+            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
             <div class="relative z-10 mx-auto max-w-md">
-            <!-- <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo"> -->
+            <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
                 <div
                     class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                     <a href="#">
@@ -408,9 +404,9 @@
         </div>
 
         <div class=" flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[205] mt-10"></span>
+            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
             <div class="relative z-10 mx-auto max-w-md">
-            <!-- <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo"> -->
+            <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
                 <div
                     class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                     <a href="#">
@@ -433,9 +429,9 @@
         </div>
 
         <div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[205] mt-10"></span>
+            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
             <div class="relative z-10 mx-auto max-w-md">
-            <!-- <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo"> -->
+            <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
                 <div
                     class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                     <a href="#">
@@ -458,9 +454,9 @@
         </div>
 
         <div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[205] mt-10"></span>
+            <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
             <div class="relative z-10 mx-auto max-w-md">
-            <!-- <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo"> -->
+            <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
                 <div
                     class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                     <a href="#">
@@ -488,12 +484,12 @@
     <!-- soon to offer -->
     <div class="w-screen h-screen bg-cover bg-center flex flex-col items-center justify-center bg-slate-200" >
     <h1 class="text-center text-xl ">Soon To Offer:</h1>
-    <div class="flex m-5 overflow-x-scroll space-x-4">
+    <div class="flex m-5 overflow-x-scroll mx-48 space-x-4">
     
     <div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-        <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[205] mt-10"></span>
+        <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
         <div class="relative z-10 mx-auto max-w-md">
-        <!-- <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo"> -->
+        <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
             <div
                 class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                 <a href="#">
@@ -517,9 +513,9 @@
 
 
     <div class=" flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-        <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[205] mt-10"></span>
+        <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
         <div class="relative z-10 mx-auto max-w-md">
-        <!-- <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo"> -->
+        <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
             <div
                 class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                 <a href="#">
@@ -542,9 +538,9 @@
     </div>
 
     <div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-        <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[205] mt-10"></span>
+        <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
         <div class="relative z-10 mx-auto max-w-md">
-        <!-- <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo"> -->
+        <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
             <div
                 class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                 <a href="#">
@@ -567,9 +563,9 @@
     </div>
 
     <div class=" flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-        <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[205] mt-10"></span>
+        <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
         <div class="relative z-10 mx-auto max-w-md">
-        <!-- <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo"> -->
+        <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
             <div
                 class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                 <a href="#">
@@ -594,9 +590,9 @@
     
 
     <div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-        <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[205] mt-10"></span>
+        <span class="absolute top-20 z-0 h-1 w-1  bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
         <div class="relative z-10 mx-auto max-w-md">
-        <!-- <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo"> -->
+        <img class="m-5 rounded-lg  mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
             <div
                 class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
                 <a href="#">
@@ -627,6 +623,145 @@
 </div>  
 
 
+<div class="scroll-bar text-justify"> 
+  <!-- ched courses -->
+  <div class="w-full min-h-screen bg-cover bg-center flex flex-col items-center justify-center bg-slate-200">
+    <h1 class="text-center text-xl">DEGREE/CHED COURSES</h1>
+    <div class="flex m-5 overflow-x-auto mx-4 space-x-4 md:mx-12 lg:mx-24 xl:mx-48">
+      
+      <div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+        <span class="absolute top-20 z-0 h-1 w-1 bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
+        <div class="relative z-10 mx-auto max-w-md">
+          <img class="m-5 rounded-lg mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
+          <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+            <a href="#">
+              <h1 class="text-xl">BS in Information Technology</h1>
+            </a>
+            <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+              <span>The BSIT program is a four-year degree that focuses on computer utilization and software for planning, installing, customizing, operating, managing, administering, and maintaining information technology infrastructure.</span>
+            </div>
+          </div>
+          <div class="pt-5 text-base font-semibold leading-7">
+            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Read more
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Repeat similar structure for other cards -->
+      <div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+        <span class="absolute top-20 z-0 h-1 w-1 bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
+        <div class="relative z-10 mx-auto max-w-md">
+          <img class="m-5 rounded-lg mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
+          <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+            <a href="#">
+              <h1 class="text-xl">BS in Information Technology</h1>
+            </a>
+            <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+              <span>The BSIT program is a four-year degree that focuses on computer utilization and software for planning, installing, customizing, operating, managing, administering, and maintaining information technology infrastructure.</span>
+            </div>
+          </div>
+          <div class="pt-5 text-base font-semibold leading-7">
+            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Read more
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div><div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+        <span class="absolute top-20 z-0 h-1 w-1 bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
+        <div class="relative z-10 mx-auto max-w-md">
+          <img class="m-5 rounded-lg mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
+          <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+            <a href="#">
+              <h1 class="text-xl">BS in Information Technology</h1>
+            </a>
+            <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+              <span>The BSIT program is a four-year degree that focuses on computer utilization and software for planning, installing, customizing, operating, managing, administering, and maintaining information technology infrastructure.</span>
+            </div>
+          </div>
+          <div class="pt-5 text-base font-semibold leading-7">
+            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Read more
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div><div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+        <span class="absolute top-20 z-0 h-1 w-1 bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
+        <div class="relative z-10 mx-auto max-w-md">
+          <img class="m-5 rounded-lg mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
+          <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+            <a href="#">
+              <h1 class="text-xl">BS in Information Technology</h1>
+            </a>
+            <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+              <span>The BSIT program is a four-year degree that focuses on computer utilization and software for planning, installing, customizing, operating, managing, administering, and maintaining information technology infrastructure.</span>
+            </div>
+          </div>
+          <div class="pt-5 text-base font-semibold leading-7">
+            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Read more
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div><div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+        <span class="absolute top-20 z-0 h-1 w-1 bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
+        <div class="relative z-10 mx-auto max-w-md">
+          <img class="m-5 rounded-lg mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
+          <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+            <a href="#">
+              <h1 class="text-xl">BS in Information Technology</h1>
+            </a>
+            <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+              <span>The BSIT program is a four-year degree that focuses on computer utilization and software for planning, installing, customizing, operating, managing, administering, and maintaining information technology infrastructure.</span>
+            </div>
+          </div>
+          <div class="pt-5 text-base font-semibold leading-7">
+            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Read more
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div><div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+        <span class="absolute top-20 z-0 h-1 w-1 bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
+        <div class="relative z-10 mx-auto max-w-md">
+          <img class="m-5 rounded-lg mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
+          <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+            <a href="#">
+              <h1 class="text-xl">BS in Information Technology</h1>
+            </a>
+            <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+              <span>The BSIT program is a four-year degree that focuses on computer utilization and software for planning, installing, customizing, operating, managing, administering, and maintaining information technology infrastructure.</span>
+            </div>
+          </div>
+          <div class="pt-5 text-base font-semibold leading-7">
+            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Read more
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
