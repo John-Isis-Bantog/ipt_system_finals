@@ -7,7 +7,7 @@
         <h1 class="text-center text-xl ">DEGREE/CHED COURSES</h1>
         <div class="flex m-5 overflow-x-auto mx-4 space-x-4 md:mx-12 lg:mx-24 xl:mx-48">
         
-        <div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl mx-auto sm:max-w-sm sm:rounded-lg sm:px-10 md:mx-48 md:flex md:justify-center">
+        <div class="flex-shrink-0 group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl mx-auto sm:max-w-sm sm:rounded-lg sm:px-10 md:flex md:justify-center">
             <span class="absolute top-20 z-0 h-1 w-1 bg-green-600 transition-all duration-300 group-hover:scale-[300] mt-10"></span>
             <div class="relative z-10 mx-auto max-w-md">
                 <img class="m-5 rounded-lg mx-auto" src="{{ asset('pic-card1.jpg') }}" alt="Your Photo">
