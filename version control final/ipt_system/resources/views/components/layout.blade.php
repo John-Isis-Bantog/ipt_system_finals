@@ -90,18 +90,18 @@
             <a href="/about" class="block {{ request()->is('about') ? 'bg-green-600 ' : ' hover:bg-green-600 hover:text-white '}} rounded-md px-3 py-2 text-md font-medium text-white"><span class="text-xl">About</span></a>
             <a href="/program" class="block {{ request()->is('program') ? 'bg-green-600 ' : ' hover:bg-green-600 hover:text-white '}} rounded-md px-3 py-2 text-md font-medium text-white"><span class="text-xl">Program</span></a>
             <a href="/admission" class="block {{ request()->is('admission') ? 'bg-green-600 ' : ' hover:bg-green-600 hover:text-white '}} rounded-md px-3 py-2 text-md font-medium text-white"><span class="text-xl">Admission</span></a>
-            <a href="/contact" class="block{{ request()->is('contact') ? 'bg-green-600 ' : ' hover:bg-green-600 hover:text-white '}} rounded-md px-3 py-2 text-md font-medium text-white"><span class="text-xl">Contact Us</span></a>
+            <a href="/contact" class="block {{ request()->is('contact') ? 'bg-green-600 ' : ' hover:bg-green-600 hover:text-white '}} rounded-md px-3 py-2 text-md font-medium text-white"><span class="text-xl">Contact Us</span></a>
         @auth
          
-            <a href="{{route('logout')}}" class="block{{ request()->is('logout') ? 'bg-green-600 ' : ' hover:bg-green-600 hover:text-white '}} rounded-md px-3 py-2 text-md font-medium text-white"><span class="text-xl"  >Logout</a>
+            <a href="{{route('logout')}}" class=" block {{ request()->is('logout') ? 'bg-green-600 ' : ' hover:bg-green-600 hover:text-white '}} rounded-md px-3 py-2 text-md font-medium text-white"><span class="text-xl"  >Logout</a>
           
           @else
          
-            <a  href="{{route('login')}}" class="block{{ request()->is('login') ? 'bg-green-600 ' : ' hover:bg-green-600 hover:text-white '}} rounded-md px-3 py-2 text-md font-medium text-white"><span class="text-xl">Login</a>
+            <a  href="{{route('login')}}" class="block {{ request()->is('login') ? 'bg-green-600 ' : ' hover:bg-green-600 hover:text-white '}} rounded-md px-3 py-2 text-md font-medium text-white"><span class="text-xl">Login</a>
           
         
           
-            <a  href="{{route('registration')}}" class="block{{ request()->is('registration') ? 'bg-green-600 ' : ' hover:bg-green-600 hover:text-white '}} rounded-md px-3 py-2 font-medium text-white"><span class="text-xl">Register</a>
+            <a  href="{{route('registration')}}" class=" block {{ request()->is('registration') ? 'bg-green-600 ' : ' hover:bg-green-600 hover:text-white '}} rounded-md px-3 py-2 font-medium text-white"><span class="text-xl">Register</a>
           
         @endauth
        
