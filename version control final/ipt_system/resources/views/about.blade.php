@@ -47,25 +47,9 @@
             </ul>
         </li>
 
-        <li>
-        Collaboration
-            <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
-            
-                
-            We work together as a community, valuing teamwork and the sharing of ideas to achieve common goals</li>
-    
-            </ul>
-        </li>
+        
 
-        <li>
-        Responsibility
-            <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
-            
-                
-                We take ownership of our actions and their impact, promoting a sense of accountability and stewardship</li>
-    
-            </ul>
-        </li>
+       
     </div>
         </div>
         <div class="back text-xl sm:text-3xl md:text-5xl font-bold flex items-center justify-start px-2 sm:px-5 md:px-20 bg-green-600 h-screen absolute w-full h-full">
