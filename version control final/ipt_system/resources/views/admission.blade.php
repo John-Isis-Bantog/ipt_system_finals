@@ -6,40 +6,40 @@
             <h3 class="text-sm md:text-lg lg:text-xl">We, at Eastwoods Professional College of Science and Technology, are committed to developing young people's minds and igniting their passion for learning. We stand out from the competition because of our dedication to offering comprehensive education. We cordially encourage you to investigate the options and embark on a life-changing educational journey with us. #TheHomeOfChampions</h3>
         </div>
     </div>
-    <ul class="space-y-2 text-gray-500 list-disc list-inside dark:text-white bg-green-700 m-5 md:m-10 p-3 md:p-5 rounded-lg">
+    <ul class="space-y-2 text-gray-500 list-disc list-inside text-white bg-green-700 m-5 md:m-10 p-3 md:p-5 rounded-lg">
         <div class="w-full bg-white border border-green-200 rounded-lg">
-            <ul class="flex flex-wrap text-sm font-medium text-center border-b border-gray-200 rounded-t-lg dark:border-green-700 dark:text-green-400 dark:bg-green-800 text-white" id="defaultTab" data-tabs-toggle="#defaultTabContent" role="tablist">
+            <ul class="flex flex-wrap text-sm font-medium text-center border-b border-gray-200 rounded-t-lg border-green-700 text-green-400 bg-green-800 text-white" id="defaultTab" data-tabs-toggle="#defaultTabContent" role="tablist">
                 <li class="me-2">
-                    <button id="about-tab" data-tabs-target="#about" type="button" role="tab" aria-controls="about" aria-selected="true" class="inline-block p-4 text-blue-600 rounded-ss-lg hover:bg-gray-100 dark:bg-green-800 dark:hover:bg-green-700 dark:text-blue-500">College Freshmen</button>
+                    <button id="about-tab" data-tabs-target="#about" type="button" role="tab" aria-controls="about" aria-selected="true" class="inline-block p-4 text-blue-600 rounded-ss-lg hover:bg-gray-100 bg-green-800 hover:bg-green-700 text-blue-500 text-white">College Freshmen</button>
                 </li>
                 <li class="me-2">
-                    <button id="services-tab" data-tabs-target="#services" type="button" role="tab" aria-controls="services" aria-selected="false" class="inline-block p-4 hover:text-gray-600 hover:bg-gray-100 dark:hover:bg-green-700 dark:hover:text-gray-300">Old Students</button>
+                    <button id="services-tab" data-tabs-target="#services" type="button" role="tab" aria-controls="services" aria-selected="false" class="inline-block p-4 hover:text-gray-600 hover:bg-gray-100 hover:bg-green-700 hover:text-gray-300 text-white">Old Students</button>
                 </li>
                 <li class="me-2">
-                    <button id="statistics-tab" data-tabs-target="#statistics" type="button" role="tab" aria-controls="statistics" aria-selected="false" class="inline-block p-4 hover:text-gray-600 hover:bg-gray-100 dark:hover:bg-green-700 dark:hover:text-gray-300">Transferees</button>
+                    <button id="statistics-tab" data-tabs-target="#statistics" type="button" role="tab" aria-controls="statistics" aria-selected="false" class="inline-block p-4 hover:text-gray-600 hover:bg-gray-100 hover:bg-green-700 hover:text-gray-300 text-white">Transferees</button>
                 </li>
                 <li class="me-2">
-                    <button id="shift-tab" data-tabs-target="#shift" type="button" role="tab" aria-controls="shift" aria-selected="false" class="inline-block p-4 hover:text-gray-600 hover:bg-gray-100 dark:hover:bg-green-700 dark:hover:text-gray-300">Returning</button>
+                    <button id="shift-tab" data-tabs-target="#shift" type="button" role="tab" aria-controls="shift" aria-selected="false" class="inline-block p-4 hover:text-gray-600 hover:bg-gray-100 hover:bg-green-700 hover:text-gray-300 text-white">Returning</button>
                 </li>
             </ul>
             <div id="defaultTabContent" class="text-white">
-                <div class="hidden p-4 bg-white rounded-lg md:p-8 dark:bg-green-700" id="about" role="tabpanel" aria-labelledby="about-tab">
-                    <ul class="ps-5 mt-2 space-y-1 list-disc list-inside">
+                <div class="hidden p-4 bg-white rounded-lg md:p-8 bg-green-700" id="about" role="tabpanel" aria-labelledby="about-tab">
+                    <ul class="ps-5 mt-2 space-y-1 list-disc list-inside text-black">
                         <li>Form 138 (report card)</li>
                         <li>3 copies 1 x 1 colored picture</li>
                         <li>Copy of Birth Certificate</li>
                         <li>Certificate of Good Moral Character</li>
                     </ul>
                 </div>
-                <div class="hidden p-4 bg-white rounded-lg md:p-8 dark:bg-green-700" id="services" role="tabpanel" aria-labelledby="services-tab">
-                    <ul class="ps-5 mt-2 space-y-1 list-disc list-inside">
+                <div class="hidden p-4 bg-white rounded-lg md:p-8 bg-green-700" id="services" role="tabpanel" aria-labelledby="services-tab">
+                    <ul class="ps-5 mt-2 space-y-1 list-disc list-inside text-black">
                         <li>ID card of the previous semester</li>
                         <li>Class cards of subject taken from the previous semester</li>
                         <li>3 copies of 1 x 1 colored picture</li>
                         <li>Students clearance from previous semester</li>
                     </ul>
                 </div>
-                <div class="hidden p-4 bg-white rounded-lg md:p-8 dark:bg-green-700" id="statistics" role="tabpanel" aria-labelledby="statistics-tab">
+                <div class="hidden p-4 bg-white rounded-lg md:p-8 bg-green-700 text-black" id="statistics" role="tabpanel" aria-labelledby="statistics-tab">
                     <ul class="ps-5 mt-2 space-y-1 list-disc list-inside">
                         <li>Honorable Dismissal (Official Transfer Credential)</li>
                         <li>Certified copy of grades/credits earned from other school</li>
@@ -48,7 +48,7 @@
                         <li>Certificate of Good Moral Character</li>
                     </ul>
                 </div>
-                <div class="hidden p-4 bg-white rounded-lg md:p-8 dark:bg-green-700" id="shift" role="tabpanel" aria-labelledby="shift-tab">
+                <div class="hidden p-4 bg-white rounded-lg md:p-8 bg-green-700 text-black" id="shift" role="tabpanel" aria-labelledby="shift-tab">
                     <ul class="ps-5 mt-2 space-y-1 list-disc list-inside">
                         <li>ID card of the last semester enrolled for returning students</li>
                         <li>Application form from the Registrar's Office</li>
@@ -60,7 +60,7 @@
         </div>
     </ul>
     <div class="flex flex-col items-center justify-end">
-        <a href="/login" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm p-4 md:p-7 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 w-auto">Enroll Now</a>
+        <a href="/login" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm p-4 md:p-7 me-2 mb-2 bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-blue-800 w-auto">Enroll Now</a>
     </div> 
 </div>
 
@@ -149,5 +149,5 @@
     </li>
 
     <div class="flex flex-col items-center justify-end">
-    <a href = "/login" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm p-7 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 w-auto">Enroll Now</a>
+    <a href = "/login" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm p-7 me-2 mb-2 bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-blue-800 w-auto">Enroll Now</a>
 </div> -->

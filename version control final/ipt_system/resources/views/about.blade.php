@@ -93,26 +93,26 @@
 <ul class="space-y-4 text-gray-500 list-disc list-inside dark:text-white bg-green-700 mx-10 p-5 m-10 rounded-lg">
 <div class="flex flex-col md:flex-row justify-between">
     <div class="flex flex-col md:flex-row">
-        <button data-modal-target="rules" data-modal-toggle="rules" class="block text-white m-1 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800" type="button">
+        <button data-modal-target="rules" data-modal-toggle="rules" class="block text-white m-1 bg-blue-700 hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800 " type="button">
             Rules and Regulation
         </button>
-        <button data-modal-target="mission" data-modal-toggle="mission" class="block text-white bg-green-700 m-1 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800" type="button">
+        <button data-modal-target="mission" data-modal-toggle="mission" class="block text-white bg-blue-700 m-1 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800" type="button">
             Mission And Vision
         </button>
     </div>
     <div class="flex md:flex-col">
         <a href="#history">
-            <button class="block text-white m-1 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800" type="button">
+            <button class="block text-white m-1 bg-blue-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800" type="button">
                 History
             </button>
         </a>
         <a href="#philosophy">
-            <button class="block text-white m-1 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800" type="button">
+            <button class="block text-white m-1 bg-blue-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800" type="button">
                 Philosophy
             </button>
         </a>
         <a href="#values">
-            <button class="block text-white m-1 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800" type="button">
+            <button class="block text-white m-1 bg-blue-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800" type="button">
                 Values
             </button>
         </a>
@@ -125,9 +125,9 @@
 
     
 <div class="container mx-auto" id="history">
-    <h1 class="text-center text-xl">History of eastwoods  Professional College(Foremely Softnet College)</h1>
-    <img class="m-5 rounded-lg w-6/12 mx-auto" src="{{ asset('about_history.jpg') }}" alt="Your Photo">
-    <p class="text-large">Softnet college of science and technology, inc. was conceptualized in december of 1993 by the president Mr. Gregorio M. Sison Jr.
+    <h1 class="text-center text-xl text-white">History of eastwoods  Professional College(Foremely Softnet College)</h1>
+    <img class="m-5 rounded-lg w-6/12 mx-auto text-white" src="{{ asset('about_history.jpg') }}" alt="Your Photo">
+    <p class="text-large text-white">Softnet college of science and technology, inc. was conceptualized in december of 1993 by the president Mr. Gregorio M. Sison Jr.
          and started operations in 1994. The college was then known as SOFTNET Computer Learning Specialists, inc. and was renting 2 
          rooms at Santiago Bldg. in Capitol Drive, Balanga. We then offered one-year courses in computer science in programming and in 
          computer secretarial. A total of 79 enrollees were out clients during first year of operation. in 1995, the enrollment build up 
@@ -138,7 +138,7 @@
     </p>
 </div>
 
-<div class="container mx-auto" id="philosophy">
+<div class="container mx-auto text-white" id="philosophy">
 <img class="m-5 rounded-lg w-6/12 mx-auto" src="{{ asset('about_phy.jpg') }}" alt="Your Photo">
     <h1 class="text-center text-xl">Philosophy </h1>
     <p class="text-lg">The paramount role of EASTWOODS PROFESSIONAL COLLEGE OF SCIENCE AND TECHNOLOGY is to empower our studentry, through education 
@@ -146,7 +146,7 @@
          them to be competitive, proactive and productive citizen of our country </p>
 </div>
 
-<div class="container mx-auto" id="values">
+<div class="container mx-auto text-white" id="values">
 <img class="m-5 rounded-lg w-6/12 mx-auto" src="{{ asset('about_value.jpg') }}" alt="Your Photo">
 <h1 class="text-center text-xl">Values</h1>
     <div class="text-lg">

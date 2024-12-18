@@ -66,9 +66,17 @@ future update
 - improve design
 -improve colors
 
+version control 6 major bug fix
+- dark mode available
+-light mode available
+-(dynamic stylings light vs dark mode)
 
 
-
+future update
+-looping over tables to reduce code and to improve maintainability 
+- tailwind cards
+- improve design
+-improve colors
 
 
 note
